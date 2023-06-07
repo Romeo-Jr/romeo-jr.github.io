@@ -1,0 +1,82 @@
+.contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+  
+ .contact {
+      margin: 30px;
+      padding: 50px;
+      background-color: #292929;
+    }
+    
+   .contact span {
+      color: white;
+      position: relative;
+      left: 40px;
+    }
+    
+    .contact .container svg {
+      float: left;
+      color: white;;
+      padding: 10px;
+    }
+    
+    .contact .content .container svg {
+      float: left;
+      color: #04aa6d;
+      padding: 5px;
+      transition: 1s;
+    }
+    
+    .contact h3,
+    .contact p {
+      color: white;
+    }
+    
+    .contact .container {
+      padding: 20px;
+      margin: 10px;
+      background-color: #171717;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .contact .container > div {
+      width: 42%;
+      padding: 10px;
+      padding-bottom: 20px;
+      margin: 17px;
+      background-color: #202020;
+    }
+
+    .contact .container .social-media .social-link a svg:hover{
+      color: #171717;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .contact {
+        padding: 10px;
+        margin: 20px;
+      }
+      .contact .container > div {
+        margin: 0px 0px 20px 0px;
+        padding: 10px;
+        width: 100%;
+      }
+    
+      .contact span {
+        position: relative;
+        left: 0px;
+      }
+
+      .contact p:first-child{
+        text-align: center;
+      }
+
+      .contact .container span,.contact .container .social-media .social-link{
+        padding-left: 40px;
+      }
+    }
+    

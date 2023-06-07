@@ -1,0 +1,22 @@
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #202020;
+    color: white;
+    font-family: 'Open Sans';
+  }
+
+.main {
+    margin-left: 240px; /* Same as the width of the sidenav */
+  }
+
+@media screen and (max-width: 560px) {
+  .main{
+    margin: 10px 20px 30px 20px;
+  }
+}
